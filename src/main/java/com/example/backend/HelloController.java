@@ -8,6 +8,11 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Olá, LEOOOOOOO! 🚀 Spring Boot está funcionando!";
+        return "Olá, LEOOOOOOO!";
+    }
+
+    @GetMapping("/api/status")
+    public String apiStatus() {
+        return "PokeAPI integration is ready!";
     }
 }
