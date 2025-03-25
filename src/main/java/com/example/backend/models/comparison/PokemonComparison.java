@@ -1,4 +1,4 @@
-package com.example.backend.models;
+package com.example.backend.models.comparison;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -6,6 +6,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.util.List;
 import java.util.Map;
+
+import com.example.backend.models.pokemon.Pokemon;
+import com.example.backend.models.type.TypeEffectiveness;
 
 @Data
 @Builder

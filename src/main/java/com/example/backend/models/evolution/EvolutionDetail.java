@@ -1,5 +1,6 @@
-package com.example.backend.models;
+package com.example.backend.models.evolution;
 
+import com.example.backend.models.NamedApiResource;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 

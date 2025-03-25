@@ -1,6 +1,12 @@
 package com.example.backend.service;
 
 import com.example.backend.models.*;
+import com.example.backend.models.evolution.EvolutionChain;
+import com.example.backend.models.pokemon.Pokemon;
+import com.example.backend.models.pokemon.PokemonResponse;
+import com.example.backend.models.pokemon.PokemonSpecies;
+import com.example.backend.models.pokemon.PokemonType;
+
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Flux;

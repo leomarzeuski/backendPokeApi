@@ -1,4 +1,6 @@
-package com.example.backend.models;
+package com.example.backend.models.type;
+
+import com.example.backend.models.NamedApiResource;
 
 import lombok.Data;
 

@@ -1,6 +1,6 @@
 package com.example.backend.controller;
 
-import com.example.backend.models.PokemonResponse;
+import com.example.backend.models.pokemon.PokemonResponse;
 import com.example.backend.service.GenerationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

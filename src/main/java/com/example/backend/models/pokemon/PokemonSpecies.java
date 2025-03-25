@@ -1,5 +1,9 @@
-package com.example.backend.models;
+package com.example.backend.models.pokemon;
 
+import com.example.backend.models.FlavorTextEntry;
+import com.example.backend.models.Genus;
+import com.example.backend.models.NamedApiResource;
+import com.example.backend.models.evolution.EvolutionChainUrl;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import java.util.List;

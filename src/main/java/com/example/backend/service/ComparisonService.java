@@ -1,10 +1,11 @@
 package com.example.backend.service;
 
-import com.example.backend.models.Pokemon;
-import com.example.backend.models.PokemonType;
-import com.example.backend.models.PokemonComparison;
-import com.example.backend.models.StatComparison;
-import com.example.backend.models.TypeEffectiveness;
+import com.example.backend.models.comparison.PokemonComparison;
+import com.example.backend.models.comparison.StatComparison;
+import com.example.backend.models.pokemon.Pokemon;
+import com.example.backend.models.pokemon.PokemonType;
+import com.example.backend.models.type.TypeEffectiveness;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;

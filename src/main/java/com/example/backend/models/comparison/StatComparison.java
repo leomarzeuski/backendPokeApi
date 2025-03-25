@@ -1,4 +1,4 @@
-package com.example.backend.models;
+package com.example.backend.models.comparison;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

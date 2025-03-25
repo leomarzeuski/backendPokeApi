@@ -1,5 +1,7 @@
-package com.example.backend.models;
+package com.example.backend.models.move;
 
+import com.example.backend.models.NamedApiResource;
+import com.example.backend.models.VerboseEffect;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import java.util.List;

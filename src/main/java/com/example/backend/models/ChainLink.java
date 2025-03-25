@@ -1,5 +1,6 @@
 package com.example.backend.models;
 
+import com.example.backend.models.evolution.EvolutionDetail;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import java.util.List;

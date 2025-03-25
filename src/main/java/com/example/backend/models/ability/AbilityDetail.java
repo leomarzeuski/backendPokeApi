@@ -1,9 +1,9 @@
-package com.example.backend.models;
+package com.example.backend.models.ability;
 
 import lombok.Data;
 
 @Data
-public class Type {
+public class AbilityDetail {
     private String name;
     private String url;
 }

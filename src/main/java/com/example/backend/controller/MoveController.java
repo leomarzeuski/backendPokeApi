@@ -1,7 +1,7 @@
 package com.example.backend.controller;
 
-import com.example.backend.models.Move;
-import com.example.backend.models.PokemonResponse;
+import com.example.backend.models.move.Move;
+import com.example.backend.models.pokemon.PokemonResponse;
 import com.example.backend.service.MoveService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

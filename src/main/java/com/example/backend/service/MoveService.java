@@ -1,7 +1,8 @@
 package com.example.backend.service;
 
-import com.example.backend.models.Move;
-import com.example.backend.models.PokemonResponse;
+import com.example.backend.models.move.Move;
+import com.example.backend.models.pokemon.PokemonResponse;
+
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;

@@ -1,4 +1,6 @@
-package com.example.backend.models;
+package com.example.backend.models.evolution;
+
+import com.example.backend.models.ChainLink;
 
 import lombok.Data;
 

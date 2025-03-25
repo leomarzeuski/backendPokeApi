@@ -1,5 +1,7 @@
-package com.example.backend.models;
+package com.example.backend.models.pokemon;
 
+import com.example.backend.models.Sprites;
+import com.example.backend.models.ability.Ability;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import java.util.List;

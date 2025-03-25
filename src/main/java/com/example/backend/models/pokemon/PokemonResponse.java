@@ -1,4 +1,4 @@
-package com.example.backend.models;
+package com.example.backend.models.pokemon;
 
 import lombok.Data;
 import java.util.List;

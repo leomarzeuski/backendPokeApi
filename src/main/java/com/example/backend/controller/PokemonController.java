@@ -1,6 +1,10 @@
 package com.example.backend.controller;
 
 import com.example.backend.models.*;
+import com.example.backend.models.evolution.EvolutionChain;
+import com.example.backend.models.pokemon.Pokemon;
+import com.example.backend.models.pokemon.PokemonResponse;
+import com.example.backend.models.pokemon.PokemonSpecies;
 import com.example.backend.service.PokemonService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;

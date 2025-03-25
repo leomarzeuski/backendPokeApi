@@ -1,9 +1,9 @@
-package com.example.backend.models;
+package com.example.backend.models.type;
 
 import lombok.Data;
 
 @Data
-public class PokemonResult {
+public class Type {
     private String name;
     private String url;
 }

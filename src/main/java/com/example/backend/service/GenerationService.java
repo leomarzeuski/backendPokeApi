@@ -1,8 +1,10 @@
 package com.example.backend.service;
 
-import com.example.backend.models.PokemonResponse;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
+
+import com.example.backend.models.pokemon.PokemonResponse;
+
 import reactor.core.publisher.Mono;
 
 @Service

@@ -1,8 +1,10 @@
 package com.example.backend.service;
 
-import com.example.backend.models.Pokemon;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.example.backend.models.pokemon.Pokemon;
+
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
